@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { BsCart3, BsSearch } from 'react-icons/bs';
 import { IoNotificationsOutline  } from 'react-icons/io5';
-import '../css/Navbar.css';
+import '../css/NavBar.css';
 
 const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState('');
