@@ -129,28 +129,20 @@
 }
 
 @media (max-width: 768px) {
-  .navbar {
-    padding: 1rem;
-  }
-
-  .search-container {
-    flex: 1;
-    margin: 0 1rem; 
-  }
-
-  .navbar-logo h1 {
-    font-size: 1.2rem;
-  }
-
-  .navbar-actions {
-    gap: 1rem; 
-  }
-
-  .icon-label {
-    display: none;
-  }
-
-  .search-input {
-    padding: 0.75rem 0.5rem; 
-  }
+    .navbar {
+      padding: 1rem;
+    }
+  
+    .search-container {
+      flex: 1;
+      margin: 0 1rem;
+    }
+  
+    .navbar-logo h1 {
+      font-size: 1.2rem;
+    }
+  
+    .icon-label {
+      display: none;
+    }
 }
