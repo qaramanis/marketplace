@@ -1,0 +1,128 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #2c3e50;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.search-container {
+    flex: 0 1 40%;
+    max-width: 600px;
+}
+
+.search-input-container {
+    position: relative;
+    width: 100%;
+}
+
+.search-input-container:hover .search-input{
+   border-color: #007bff;
+}
+
+.search-input-container:hover .search-icon-button {
+    color: #007bff;
+}
+
+.search-input-container:focus-within .search-icon-button {
+    color: #007bff;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    padding-right: 3rem;
+    border: 1px solid #e1e1e1;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    background-color: #f8f9fa;
+    transition: all 0.2s ease;
+    color: #2c3e50; 
+    caret-color: #2c3e50;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: white;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.search-input::placeholder {
+    color: #6c757d;
+}
+
+.search-icon-button {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c757d;
+    transition: color 0.2s ease;
+}
+
+.search-icon-button:hover {
+    color: #007bff;
+}
+
+.search-icon {
+    font-size: 1.2rem;
+}
+
+.navbar-actions {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.navbar-icon:hover {
+    transform: translateY(-2px);
+    color: #007bff;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    transition: color 0.2s ease;
+}
+
+.navbar-icon:hover .icon {
+    color: #007bff;
+}
+
+.icon-label {
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+    color: #6c757d;
+    font-weight: 500;
+}
