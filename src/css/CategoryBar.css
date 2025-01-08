@@ -1,14 +1,11 @@
 .category-bar {
     width: 100%;
-    padding: 1rem 2rem;
-    margin-top: 70px; 
+    padding: 1rem ;
     background-color: white;
-    display: flex;
-    justify-content: flex-start; 
 }
 
 .category-container {
-    width: 65%;
+    width: 100%;
     display: flex;
     gap: 1rem;
     justify-content: space-between;

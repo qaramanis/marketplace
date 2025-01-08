@@ -1,0 +1,84 @@
+.order-history {
+    width: 35%;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.order-history-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2c3e50;
+    padding: 1rem;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.orders-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.order-card {
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.order-card:hover {
+    border-color: #007bff;
+}
+
+.order-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.order-product {
+    font-size: 0.9rem;
+    color: #2c3e50;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.order-status-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.order-status {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 4px;
+    background-color: #e1e1e1;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    transition: width 0.3s ease;
+}
