@@ -127,3 +127,22 @@
     color: #6c757d;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .navbar {
+      padding: 1rem;
+    }
+  
+    .search-container {
+      flex: 1;
+      margin: 0 1rem;
+    }
+  
+    .navbar-logo h1 {
+      font-size: 1.2rem;
+    }
+  
+    .icon-label {
+      display: none;
+    }
+}

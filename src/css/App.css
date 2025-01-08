@@ -34,3 +34,10 @@ body {
   flex-direction: column;
   width: 65%;
 }
+
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    padding: 70px 1rem 0 1rem;
+  }
+}
