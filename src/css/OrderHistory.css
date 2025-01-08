@@ -88,5 +88,18 @@
 @media (max-width: 768px) {
     .order-history {
       width: 100%;
+      margin: 1rem 0; 
+      border-radius: 0; 
+      border-left: none; 
+      border-right: none;
+    }
+  
+    .orders-container {
+      padding: 1rem 1rem; 
+    }
+  
+    .order-card {
+      margin: 0;
+      border-radius: 8px;
     }
   }
