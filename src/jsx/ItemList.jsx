@@ -1,5 +1,5 @@
 import '../css/ItemList.css';
-
+import { useNavigate } from 'react-router-dom';
 const ItemList = () => {
   // Sample product data
   const products = [
@@ -90,13 +90,15 @@ const ItemList = () => {
   ];
 
   const categories = ["Smartphones", "Smartwatches", "TVs", "Laptops", "Accessories"];
-  
+  const navigate = useNavigate();
+
   const truncateTitle = (title, maxLength = 50) => {
     if (title.length <= maxLength) return title;
     return `${title.substring(0, maxLength)}...`;
   };
 
   return (
+    
     <div className="item-list">
       {categories.map(category => {
         const categoryProducts = products.filter(product => product.category === category);
@@ -111,7 +113,7 @@ const ItemList = () => {
             </div>
             <div className="items-grid">
               {categoryProducts.map((product) => (
-                <div key={product.id} className="item-card">
+                <div key={product.id} className="item-card" onClick={() => navigate(`/product/${product.id}`)}>
                   <div className="item-thumbnail">
                     <img src={product.thumbnail} alt={product.title} />
                   </div>
