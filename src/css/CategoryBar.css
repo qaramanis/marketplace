@@ -27,7 +27,7 @@
 }
 
 .category-button:hover {
-    background-color: #f1f3f5;
+    background-color: white;
     border-color: #007bff;
     transform: translateY(-2px);
 }
