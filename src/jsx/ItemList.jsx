@@ -107,7 +107,7 @@ const ItemList = () => {
           <div key={category} className="category-section">
             <div className="category-header">
               <h2 className="category-title">{category}</h2>
-              <a href="" className="view-all">view all</a>
+              <a href="#" className="view-all">view all</a>
             </div>
             <div className="items-grid">
               {categoryProducts.map((product) => (
