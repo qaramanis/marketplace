@@ -43,4 +43,15 @@ body {
   .content-container {
     width: 100%;
   }
+
+  .side-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .order-history,
+  .register-store {
+    margin: 1rem 0;
+  }
 }
+

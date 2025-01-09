@@ -1,0 +1,85 @@
+.register-store {
+    width: 100%;
+    margin-right: 0rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-top: 1rem;
+    height: fit-content;
+}
+
+.register-store-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2c3e50;
+    padding: 1rem;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.register-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+
+.register-illustration {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1.5rem;
+}
+
+.register-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.75rem;
+}
+
+.register-description {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+.register-button {
+    padding: 0.75rem 2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.register-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .register-store {
+        width: 100%;
+        margin: 1rem 0;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+    }
+
+    .register-content {
+        padding: 1rem;
+    }
+
+    .register-illustration {
+        width: 150px;
+        height: 150px;
+    }
+}

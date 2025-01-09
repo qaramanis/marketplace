@@ -3,6 +3,8 @@ import { BsCart3, BsSearch } from 'react-icons/bs';
 import { FiUser } from "react-icons/fi";
 import '../css/NavBar.css';
 
+import ProfileMenu from './ProfileMenu';
+
 const Navbar = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -40,10 +42,7 @@ const Navbar = () => {
           <BsCart3 className="icon" />
           <span className="icon-label">Cart</span>
         </div>
-        <div className="navbar-icon">
-          <FiUser  className="icon" />
-          <span className="icon-label">Profile</span>
-        </div>
+        <ProfileMenu />
       </div>
     </nav>
   );
