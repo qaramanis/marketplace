@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className="search-input-container">
             <input
               type="text"
-              placeholder="What are you looking for?"
+              placeholder="Search"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="search-input"
