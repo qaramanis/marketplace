@@ -113,14 +113,6 @@
     background-color: #f8f9fa;
     cursor: not-allowed;
 }
-
-.side-container {
-    width: 35%;
-    margin-right: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
   
 @media (max-width: 768px) {
     .auth-page {
