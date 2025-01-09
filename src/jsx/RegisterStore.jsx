@@ -18,7 +18,7 @@ const RegisterStore = () => {
           alt="Store registration illustration" 
           className="register-illustration"
         />
-        <h3 className="register-heading">Do you have a store? Join Skroutz!</h3>
+        <h3 className="register-heading">Do you have a store? Join MarketPlace!</h3>
         <p className="register-description">
           Start selling online and watch your business's performance skyrocket!
         </p>
