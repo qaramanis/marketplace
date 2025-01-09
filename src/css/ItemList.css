@@ -8,15 +8,34 @@
     margin-bottom: 2rem;
 }
 
+.category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e1e1e1;
+    align-items: baseline;
+}
+
 .category-title {
     font-size: 1.5rem;
     font-weight: 600;
     color: #2c3e50;
-    margin: 1rem 0;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #e1e1e1;
+    margin: 0;
 }
 
+.view-all {
+    font-size: 0.9rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.view-all:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
 .items-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
