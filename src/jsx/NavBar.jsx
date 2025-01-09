@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { BsCart3, BsSearch } from 'react-icons/bs';
-import { IoNotificationsOutline  } from 'react-icons/io5';
+import { FiUser } from "react-icons/fi";
 import '../css/NavBar.css';
 
 const Navbar = () => {
@@ -41,8 +41,8 @@ const Navbar = () => {
           <span className="icon-label">Cart</span>
         </div>
         <div className="navbar-icon">
-          <IoNotificationsOutline  className="icon" />
-          <span className="icon-label">Notifications</span>
+          <FiUser  className="icon" />
+          <span className="icon-label">Profile</span>
         </div>
       </div>
     </nav>
